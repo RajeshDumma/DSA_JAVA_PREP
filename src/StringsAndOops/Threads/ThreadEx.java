@@ -1,5 +1,7 @@
 package StringsAndOops.Threads;
 
+import java.lang.*;
+
 class MyThread extends Thread{
 
     public void run() {

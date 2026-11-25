@@ -17,6 +17,9 @@ class JavaClass{
     }
 }
 public class StaticEx {
+    static {
+        System.out.println("First preference for static Blocks");
+    }
     public static void main(String[] args){
         JavaClass obj = new JavaClass();
         obj.name = "Rajesh";
@@ -26,5 +29,9 @@ public class StaticEx {
 
 
         JavaClass.teaching();
+    }
+
+    static {
+        System.out.println("First preference for End static Blocks");
     }
 }
